@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="الكابتن - هيما للرحلات ونقل طلاب المدارس والجامعات والمناسبات. اتصل بنا واحجز رحلتك.">
+<meta name="theme-color" content="#071b35">
+<title>الكابتن - هيما | للرحلات ونقل الطلاب والمناسبات</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#071b35;--navy2:#0d2b50;--gold:#f6b91a;--ink:#172438;--muted:#66758a;--pale:#f4f7fb;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"Cairo",Tahoma,Arial,sans-serif;color:var(--ink);background:#fff}a{text-decoration:none;color:inherit}.container{width:min(1160px,92%);margin:auto}
+.topbar{background:#041326;color:#dbe6f3;font-size:13px;padding:8px 0}.topbar .container{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.topbar a{color:#fff;font-weight:700}
+header{position:sticky;top:0;z-index:20;background:#fff;box-shadow:0 5px 24px #061a3210}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px}.brand-mark{width:49px;height:49px;border-radius:15px;background:var(--gold);display:grid;place-items:center;color:var(--navy);font-weight:900;font-size:24px;box-shadow:0 7px 16px #f6b91a44}.brand-name{font-size:20px;font-weight:900;color:var(--navy);line-height:1.2}.brand-name small{display:block;font-size:11px;letter-spacing:1.7px;color:#8a96a5;font-weight:800;direction:ltr;text-align:right}.links{display:flex;gap:25px;align-items:center;font-size:14px;font-weight:700;color:#42516a}.links a:hover{color:#c78c00}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:10px;padding:12px 20px;font-weight:800;transition:.2s}.nav-cta,.btn-gold{background:var(--gold);color:var(--navy);box-shadow:0 8px 20px #f6b91a35}.nav-cta:hover,.btn:hover{transform:translateY(-2px)}
+.hero{position:relative;min-height:610px;display:flex;align-items:center;color:#fff;overflow:hidden;background:linear-gradient(90deg,rgba(3,17,34,.92) 0%,rgba(5,26,50,.78) 48%,rgba(5,26,50,.35) 100%),url('https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=2000&q=85') center/cover no-repeat}
+.hero:after{content:"";position:absolute;inset:auto 0 0;height:110px;background:linear-gradient(transparent,#071b35)}.hero-content{position:relative;z-index:1;max-width:690px;padding:85px 0 125px}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--gold);font-weight:800;font-size:14px;letter-spacing:.2px}.eyebrow:before{content:"";width:30px;height:2px;background:var(--gold)}h1{font-size:clamp(35px,5vw,62px);line-height:1.28;margin:18px 0;font-weight:900}.hero p{font-size:18px;line-height:2;color:#e0e9f4;max-width:620px;margin:0 0 28px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn-outline{border:1px solid #ffffff80;color:#fff;background:#ffffff12}.hero-note{display:flex;gap:25px;flex-wrap:wrap;margin-top:42px;color:#e8eef7;font-size:13px}.hero-note span{display:flex;align-items:center;gap:8px}.check{color:var(--gold);font-size:17px}
+.stats{position:relative;margin-top:-48px;z-index:3}.stats-grid{display:grid;grid-template-columns:repeat(3,1fr);background:#fff;border-radius:18px;box-shadow:0 15px 45px #061a3217;padding:24px 15px}.stat{text-align:center;border-left:1px solid #e8edf3}.stat:last-child{border:0}.stat strong{display:block;font-size:20px;color:var(--navy);font-weight:900}.stat span{font-size:13px;color:var(--muted)}
+section{padding:88px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 42px}.section-head .eyebrow{color:#b47c00}.section-head h2{font-size:clamp(27px,3.2vw,39px);line-height:1.35;color:var(--navy);margin:12px 0}.section-head p{color:var(--muted);line-height:1.9;margin:0}
+.services{background:var(--pale)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.service-card{background:#fff;border:1px solid #e9eef5;border-radius:17px;padding:28px 25px;box-shadow:0 9px 25px #0b254008;transition:.25s}.service-card:hover{transform:translateY(-6px);box-shadow:0 16px 35px #0b254014}.icon{width:55px;height:55px;border-radius:15px;background:#fff4d5;color:#a66f00;display:grid;place-items:center;font-size:25px;margin-bottom:18px}.service-card h3{margin:0 0 9px;color:var(--navy);font-size:19px}.service-card p{color:var(--muted);font-size:14px;line-height:1.9;margin:0}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.about-image{min-height:410px;border-radius:20px;background:linear-gradient(0deg,#071b3530,#071b3500),url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1100&q=85') center/cover;position:relative}.image-tag{position:absolute;bottom:22px;right:22px;background:var(--gold);color:var(--navy);padding:13px 18px;border-radius:12px;font-weight:900}.about-copy h2{font-size:35px;color:var(--navy);line-height:1.4;margin:12px 0}.about-copy p{color:var(--muted);line-height:2}.ticks{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin:25px 0}.ticks span{font-weight:700;font-size:14px;color:#34445a}.ticks b{color:#d99b00;margin-left:7px}
+.fleet{background:var(--navy);color:#fff}.fleet .section-head h2{color:#fff}.fleet .section-head p{color:#b8c8dc}.fleet-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.fleet-card{overflow:hidden;border-radius:18px;background:#102d50;border:1px solid #ffffff16}.fleet-photo{height:250px;background-size:cover;background-position:center}.fleet-card:nth-child(1) .fleet-photo{background-image:url('https://images.unsplash.com/photo-1570125909232-eb263c188f7e?auto=format&fit=crop&w=1000&q=85')}.fleet-card:nth-child(2) .fleet-photo{background-image:url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1000&q=85')}.fleet-info{padding:22px 25px}.fleet-info h3{font-size:20px;margin:0 0 7px}.fleet-info p{color:#b8c8dc;font-size:14px;line-height:1.8;margin:0}
+.why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.why-item{text-align:center;padding:24px 15px;border:1px solid #e9eef5;border-radius:15px}.why-item .icon{margin:0 auto 14px}.why-item h3{font-size:16px;color:var(--navy);margin:0 0 7px}.why-item p{font-size:13px;color:var(--muted);line-height:1.8;margin:0}
+.cta{padding:65px 0;background:linear-gradient(110deg,#0b2b50,#06172d);color:#fff}.cta-inner{display:flex;align-items:center;justify-content:space-between;gap:25px}.cta h2{font-size:30px;margin:0 0 8px}.cta p{color:#c1d0e1;margin:0}
+.contact{background:var(--pale)}.contact-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:30px}.contact-info,.booking{background:#fff;border-radius:17px;padding:30px;box-shadow:0 8px 25px #0b254008}.contact-info h3,.booking h3{color:var(--navy);font-size:22px;margin:0 0 15px}.contact-info p{color:var(--muted);line-height:1.9}.contact-line{display:flex;gap:13px;align-items:center;padding:14px 0;border-bottom:1px solid #edf1f5}.contact-line:last-child{border:0}.contact-line b{display:block;color:var(--navy)}.contact-line small{color:var(--muted)}.contact-line .icon{width:43px;height:43px;margin:0;flex:none;font-size:19px}
+form{display:grid;grid-template-columns:1fr 1fr;gap:13px}label{font-size:13px;font-weight:700;color:#42516a}input,select,textarea{width:100%;margin-top:6px;padding:13px;border:1px solid #dfe6ee;border-radius:9px;font:inherit;font-size:14px;outline:none;background:#fff}input:focus,select:focus,textarea:focus{border-color:#d69a08;box-shadow:0 0 0 3px #f6b91a22}.full{grid-column:1/-1}textarea{min-height:90px;resize:vertical}button{border:0;cursor:pointer;font:inherit}
+footer{background:#041326;color:#c2cede;padding:45px 0 20px}.footer-row{display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap;padding-bottom:28px}.footer-brand{color:#fff;font-weight:900;font-size:22px}.footer-row p{max-width:420px;line-height:1.9;color:#9eafc4;font-size:13px}.footer-links{display:flex;gap:20px;flex-wrap:wrap;font-size:13px}.copyright{border-top:1px solid #ffffff18;padding-top:18px;text-align:center;font-size:12px;color:#8294aa}
+.float-wa{position:fixed;bottom:20px;left:20px;z-index:30;width:58px;height:58px;border-radius:50%;background:#20c767;color:white;display:grid;place-items:center;font-size:27px;box-shadow:0 8px 25px #20c76766}
+@media(max-width:850px){.links{display:none}.hero{min-height:570px}.cards{grid-template-columns:1fr 1fr}.about-grid{gap:28px}.why-grid{grid-template-columns:1fr 1fr}.contact-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.topbar .container{justify-content:center}.nav{height:70px}.brand-name{font-size:17px}.nav-cta{padding:10px 12px;font-size:12px}.hero{min-height:590px;background-position:58% center}.hero-content{padding:70px 0 110px}h1{font-size:38px}.hero p{font-size:15px}.hero-note{gap:12px}.stats-grid{padding:17px 5px}.stat strong{font-size:16px}.stat span{font-size:11px}.stat{padding:0 5px}section{padding:65px 0}.cards,.fleet-grid{grid-template-columns:1fr}.about-grid{grid-template-columns:1fr}.about-image{min-height:280px;order:2}.about-copy h2{font-size:28px}.ticks{grid-template-columns:1fr}.why-grid{grid-template-columns:1fr 1fr}.cta-inner{display:block;text-align:center}.cta .btn{margin-top:20px}form{grid-template-columns:1fr}.full{grid-column:auto}.contact-info,.booking{padding:22px}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="container"><span>خدمات نقل ورحلات على الطريق… راحتك أولويتنا</span><span>للحجز والاستفسار: <a href="tel:01039680976" dir="ltr">01039680976</a></span></div></div>
+<header><div class="container nav">
+<a class="brand" href="#home"><span class="brand-mark">هـ</span><span class="brand-name">الكابتن - هيما<small>TRANSPORT & TRIPS</small></span></a>
+<nav class="links"><a href="#home">الرئيسية</a><a href="#services">خدماتنا</a><a href="#fleet">أسطولنا</a><a href="#about">من نحن</a><a href="#contact">اتصل بنا</a></nav>
+<a class="nav-cta" href="https://wa.me/201039680976?text=%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%AD%D8%AC%D8%B2" target="_blank">احجز الآن ↗</a>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="container"><div class="hero-content">
+<div class="eyebrow">مشوارك يبدأ معانا</div>
+<h1>رحلتك أريح…<br>ومشاويرك علينا</h1>
+<p>الكابتن - هيما لخدمات الرحلات والمناسبات ونقل طلاب المدارس والجامعات. نوفر لك وسيلة انتقال مريحة وتنظيمًا يناسب احتياجك.</p>
+<div class="hero-actions"><a class="btn btn-gold" href="#contact">اطلب عرض سعر <span>←</span></a><a class="btn btn-outline" href="tel:01039680976">اتصل بنا: 01039680976</a></div>
+<div class="hero-note"><span><b class="check">✓</b> رحلات ومشاوير خاصة</span><span><b class="check">✓</b> نقل طلاب ومنتظم</span><span><b class="check">✓</b> مناسبات وأفراح</span></div>
+</div></div></section>
+<div class="container stats"><div class="stats-grid"><div class="stat"><strong>رحلات متنوعة</strong><span>داخل مصر حسب الطلب</span></div><div class="stat"><strong>خدمة مرنة</strong><span>للأفراد والمجموعات</span></div><div class="stat"><strong>حجز مباشر</strong><span>بالتليفون وواتساب</span></div></div></div>
+<section class="services" id="services"><div class="container"><div class="section-head"><div class="eyebrow">خدماتنا</div><h2>كل مشاويرك… في مكان واحد</h2><p>نرتب لك وسيلة الانتقال المناسبة، سواء كانت رحلة ترفيهية أو انتقالًا يوميًا أو مناسبة خاصة.</p></div>
+<div class="cards">
+<article class="service-card"><div class="icon">🚌</div><h3>نقل طلاب المدارس والجامعات</h3><p>خدمات نقل للطلاب والطالبات، مع تنظيم خطوط ومواعيد الانتقال وفق الاتفاق، ومنها جامعة الدلتا وجامعة المنصورة الجديدة وجامعة حورس.</p></article>
+<article class="service-card"><div class="icon">🧭</div><h3>الرحلات والمشاوير</h3><p>رحلات للأفراد والمجموعات والزيارات الترفيهية، من السنبلاوين إلى الوجهة التي تختارها داخل الدقهلية وخارجها.</p></article>
+<article class="service-card"><div class="icon">🎉</div><h3>المناسبات والأفراح</h3><p>انتقالات للمناسبات العائلية والأفراح والتجمعات، مع إمكانية تنسيق الذهاب والعودة.</p></article>
+</div></div></section>
+<section id="about"><div class="container about-grid"><div class="about-image"><div class="image-tag">الكابتن - هيما | معاك في كل مشوار</div></div><div class="about-copy"><div class="eyebrow">من نحن</div><h2>خدمة نقل تهتم براحتك ووقتك</h2><p>في الكابتن - هيما، نؤمن أن الرحلة الجيدة تبدأ من التنظيم والاهتمام بالتفاصيل. نعمل على توفير حلول نقل تناسب الرحلات والمناسبات ونقل الطلاب، مع التواصل المباشر لتحديد التفاصيل والاتفاق على الخدمة.</p><div class="ticks"><span><b>✓</b> تنسيق مسبق للمواعيد</span><span><b>✓</b> خيارات تناسب المجموعة</span><span><b>✓</b> حجز سهل وسريع</span><span><b>✓</b> تواصل مباشر</span></div><a class="btn btn-gold" href="https://wa.me/201039680976" target="_blank">تواصل معنا عبر واتساب</a></div></div></section>
+<section class="fleet" id="fleet"><div class="container"><div class="section-head"><div class="eyebrow">أسطولنا</div><h2>وسيلة النقل المناسبة لمجموعتك</h2><p>ننسق توفير أتوبيسات كبيرة وميني باصات وفق عدد الركاب وطبيعة الرحلة والتوافر.</p></div><div class="fleet-grid">
+<article class="fleet-card"><div class="fleet-photo" role="img" aria-label="أتوبيس نقل حديث"></div><div class="fleet-info"><h3>أتوبيسات كبيرة</h3><p>مناسبة للرحلات الجماعية ونقل الطلاب والمجموعات الكبيرة.</p></div></article>
+<article class="fleet-card"><div class="fleet-photo" role="img" aria-label="حافلة مريحة للرحلات"></div><div class="fleet-info"><h3>ميني باصات</h3><p>اختيار عملي للمجموعات الصغيرة والمشاوير الخاصة والمناسبات.</p></div></article>
+</div></div></section>
+<section><div class="container"><div class="section-head"><div class="eyebrow">لماذا تختارنا؟</div><h2>اهتمام بالتفاصيل من أول اتصال</h2><p>هدفنا أن تكون تفاصيل رحلتك واضحة ومنظمة قبل التحرك.</p></div><div class="why-grid">
+<div class="why-item"><div class="icon">📅</div><h3>تنظيم المواعيد</h3><p>تحديد موعد ومكان التحرك والعودة مسبقًا.</p></div>
+<div class="why-item"><div class="icon">👥</div><h3>مناسب لعددكم</h3><p>اختيار وسيلة النقل وفق عدد الركاب.</p></div>
+<div class="why-item"><div class="icon">💬</div><h3>تواصل مباشر</h3><p>استفسار وحجز بسهولة عبر الهاتف وواتساب.</p></div>
+<div class="why-item"><div class="icon">📍</div><h3>وجهتك تحددها</h3><p>ننسق الرحلات من السنبلاوين إلى وجهتك.</p></div>
+</div></div></section>
+<section class="cta"><div class="container cta-inner"><div><h2>جاهز ترتب مشوارك؟</h2><p>اتصل بنا الآن وحدد وجهتك وعدد الركاب وموعد الرحلة.</p></div><a class="btn btn-gold" href="tel:01039680976">اتصل الآن 01039680976</a></div></section>
+<section class="contact" id="contact"><div class="container"><div class="section-head"><div class="eyebrow">اتصل بنا</div><h2>اطلب حجزك أو عرض السعر</h2><p>املأ البيانات وسنجهز لك رسالة واتساب بالتفاصيل لإرسالها مباشرة.</p></div><div class="contact-grid">
+<div class="contact-info"><h3>يسعدنا تواصلك</h3><p>سواء كنت ترتب رحلة أو تحتاج نقلًا للطلاب أو انتقالات لمناسبة، تواصل معنا لمناقشة التفاصيل.</p>
+<div class="contact-line"><div class="icon">☎</div><div><small>اتصال مباشر</small><b dir="ltr">01039680976</b></div></div>
+<div class="contact-line"><div class="icon">◉</div><div><small>واتساب للحجز والاستفسار</small><b>راسلنا في أي وقت</b></div></div>
+<div class="contact-line"><div class="icon">📍</div><div><small>نطاق الخدمة</small><b>السنبلاوين – الدقهلية والوجهات حسب الاتفاق</b></div></div>
+</div>
+<div class="booking"><h3>بيانات طلب الحجز</h3><form id="bookingForm">
+<label>الاسم<input name="name" required placeholder="اكتب اسمك"></label>
+<label>رقم الموبايل<input name="phone" required inputmode="tel" placeholder="رقم للتواصل"></label>
+<label>نوع الخدمة<select name="service"><option>رحلة</option><option>نقل طلاب مدارس أو جامعات</option><option>مناسبة أو فرح</option><option>مشوار خاص</option></select></label>
+<label>عدد الركاب<input name="count" type="number" min="1" placeholder="عدد الركاب"></label>
+<label class="full">مكان التحرك والوجهة<input name="route" placeholder="مثال: السنبلاوين إلى المنصورة"></label>
+<label class="full">تفاصيل إضافية<textarea name="details" placeholder="الموعد والتفاصيل المطلوبة"></textarea></label>
+<button class="btn btn-gold full" type="submit">إرسال طلب الحجز عبر واتساب ←</button>
+</form></div>
+</div></div></section>
+</main>
+<footer><div class="container"><div class="footer-row"><div><div class="footer-brand">الكابتن - هيما</div><p>للرحلات والمناسبات ونقل طلاب المدارس والجامعات. مشوارك يبدأ باتصال.</p></div><div class="footer-links"><a href="#home">الرئيسية</a><a href="#services">خدماتنا</a><a href="#fleet">أسطولنا</a><a href="#contact">الحجز والتواصل</a></div></div><div class="copyright">© <span id="year"></span> الكابتن - هيما. جميع الحقوق محفوظة.</div></div></footer>
+<a class="float-wa" href="https://wa.me/201039680976" target="_blank" aria-label="واتساب">◉</a>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('bookingForm').addEventListener('submit',function(e){
+ e.preventDefault();const d=new FormData(this);
+ const msg=`طلب حجز جديد - الكابتن هيما%0Aالاسم: ${encodeURIComponent(d.get('name'))}%0Aرقم الهاتف: ${encodeURIComponent(d.get('phone'))}%0Aنوع الخدمة: ${encodeURIComponent(d.get('service'))}%0Aعدد الركاب: ${encodeURIComponent(d.get('count')||'غير محدد')}%0Aخط السير: ${encodeURIComponent(d.get('route')||'غير محدد')}%0Aالتفاصيل: ${encodeURIComponent(d.get('details')||'لا يوجد')}`;
+ window.open('https://wa.me/201039680976?text='+msg,'_blank');
+});
+</script>
+</body></html>
